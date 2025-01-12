@@ -87,8 +87,3 @@ class Interpreter:
                     return "Unrecognized input."
         except Exception as e:
             return f"Error: {e}"
-
-# Example Usage
-interpreter = Interpreter()
-print(interpreter.process_command('10 PRINT "Hello world"'))
-print(interpreter.process_command("RUN"))
